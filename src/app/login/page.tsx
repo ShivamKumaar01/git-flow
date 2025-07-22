@@ -45,17 +45,6 @@ const Login: React.FC = () => {
   });
 
   const onSubmit = (data: FormData) => {
-    // dispatch(loginUser(data))
-    //   .unwrap()
-    //   .then((response) => {
-      
-    //     setTimeout(() => {
-    //       router.push("/dashboard");
-    //     }, 1000);
-    //   })
-    //   .catch((err) => {
-    //     console.error(err);
-    //   });
     console.log(data)
   };
 
