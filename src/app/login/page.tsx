@@ -69,7 +69,11 @@ const Login: React.FC = () => {
           </Typography>
           <h6>
             Don't have an account? <Link href={"/signup"}>Signup</Link>
+
             {/* <h6>Hellow world world</h6> */}
+
+            <h6>Hellow Hellow</h6>
+
           </h6>
 
           <form onSubmit={handleSubmit(onSubmit)}>
